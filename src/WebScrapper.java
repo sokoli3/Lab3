@@ -19,7 +19,7 @@ public class WebScrapper {
         String contents = urlScanner.useDelimiter("\\A").next();
         urlScanner.close();
         return contents;
-        System.out.println(WebScrapper.urlToString("http://erdani.com/tdpl/hamlet.txt"));
+        System.out.println(urlToString("http://erdani.com/tdpl/hamlet.txt"));
     }
 
     public static void main(String[] unused) {
